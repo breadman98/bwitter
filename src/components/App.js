@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import AppRouter from "components/AppRouter";
 import { authService } from "fbase";
 import { useEffect } from "react";
-import Auth from "routes/Auth";
 
 function App() {
   const [init, setInit] = useState(false);
